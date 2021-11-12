@@ -72,8 +72,8 @@ const Card = () => {
                 )}
 
                 {addToggle && (
-                    // className="animate__animated animate__fadeOut animate__delay-2s"
-                    <Notification >
+                    // 
+                    <Notification className="animate__animated animate__fadeOut animate__delay-2s">
                         <IconBg/>
                         Added Kev B. to your favorites
                     </Notification>

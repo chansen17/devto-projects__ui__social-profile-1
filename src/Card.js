@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 import styled from "styled-components"
 import waterFall from './waterfall.jpeg';
@@ -23,7 +23,7 @@ const Card = () => {
     };
 
     const onAddToggle = () => {
-        setAddToggle(!addToggle)
+        setAddToggle(!addToggle);
     };
 
     const onNavToggle = () => setNavToggled(!navToggled);
@@ -72,7 +72,8 @@ const Card = () => {
                 )}
 
                 {addToggle && (
-                    <Notification className="animate__animated animate__fadeOut animate__delay-2s">
+                    // className="animate__animated animate__fadeOut animate__delay-2s"
+                    <Notification >
                         <IconBg/>
                         Added Kev B. to your favorites
                     </Notification>

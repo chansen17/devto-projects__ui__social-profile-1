@@ -28,7 +28,10 @@ const Card = () => {
 
     const onNavToggle = () => setNavToggled(!navToggled);
 
-    const onChatToggle = () => setChatToggled(!chatToggled);
+    const onChatToggle = () => {
+        setChatToggled(!chatToggled);
+        setMessage("");
+    };
 
     const toggleChatIcon = () => setChatIconToggle(!chatIconToggle);
 

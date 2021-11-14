@@ -78,7 +78,6 @@ const Card = () => {
                     // 
                     <Notification className="animate__animated animate__fadeOut animate__delay-2s">
                         <IconBg/>
-                        Added Kev B. to your favorites
                     </Notification>
                 )}
             </ImageContainer>
@@ -159,8 +158,8 @@ const Popup = styled.div`
 
 const StyledCard = styled.div`
     height: 500px;
-    max-width: 100%;
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     background: #fff;
     border-radius: 18px;
     box-shadow: 5px 10px 20px rgba(0,0,0,.2);
@@ -350,6 +349,8 @@ const Input = styled.input`
     border-radius: 22px;
     background: rgba(0,0,0,.4);
     color: #eeeeee;
+    max-width: 250px;
+    width: 100%;
 
     &::placeholder {
         color: #eeeeee;

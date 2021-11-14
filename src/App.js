@@ -16,6 +16,7 @@ const Main = styled.div`
   width: 100%;
   display: grid;
   place-items: center;
+  padding: 1rem;
 `;
 
 export default App;
